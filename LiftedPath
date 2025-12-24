@@ -1,0 +1,173 @@
+<!-- ============================= -->
+<!-- LiftedPath Website Structure -->
+<!-- ============================= -->
+
+<!-- FILE: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LiftedPath | You Are Not Alone</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav>
+    <h1>LiftedPath</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="encouragement.html">Encouragement</a></li>
+      <li><a href="motivation.html">Daily Motivation</a></li>
+      <li><a href="help.html">Get Help</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h2>You Matter. Your Life Has Purpose.</h2>
+    <p>A place for encouragement, strength, and hope.</p>
+    <a class="btn" href="encouragement.html">Get Encouraged</a>
+  </header>
+
+  <section class="content">
+    <h3>Why LiftedPath?</h3>
+    <p>LiftedPath exists to remind you that no matter what you're going through, you are not alone. There is hope, strength, and a future ahead.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 LiftedPath | Built to help others</p>
+  </footer>
+</body>
+</html>
+
+<!-- ============================= -->
+<!-- FILE: encouragement.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Encouragement | LiftedPath</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav>
+    <h1>LiftedPath</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="encouragement.html">Encouragement</a></li>
+      <li><a href="motivation.html">Daily Motivation</a></li>
+      <li><a href="help.html">Get Help</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="content">
+    <h2>Words of Encouragement</h2>
+    <p>You are stronger than you think. What you're facing today does not define your future.</p>
+    <p>"The Lord is close to the brokenhearted." – Psalm 34:18</p>
+  </section>
+</body>
+</html>
+
+<!-- ============================= -->
+<!-- FILE: motivation.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Daily Motivation | LiftedPath</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav>
+    <h1>LiftedPath</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="encouragement.html">Encouragement</a></li>
+      <li><a href="motivation.html">Daily Motivation</a></li>
+      <li><a href="help.html">Get Help</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="content">
+    <h2>Today's Motivation</h2>
+    <p>Small steps still move you forward. Keep going.</p>
+  </section>
+</body>
+</html>
+
+<!-- ============================= -->
+<!-- FILE: help.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Get Help | LiftedPath</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav>
+    <h1>LiftedPath</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="encouragement.html">Encouragement</a></li>
+      <li><a href="motivation.html">Daily Motivation</a></li>
+      <li><a href="help.html">Get Help</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="content">
+    <h2>Get Help Now</h2>
+    <p>If you are in danger or thinking about harming yourself, please contact your local emergency number or a trusted adult.</p>
+    <p>USA Crisis Line: 988</p>
+  </section>
+</body>
+</html>
+
+<!-- ============================= -->
+<!-- FILE: contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | LiftedPath</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav>
+    <h1>LiftedPath</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="encouragement.html">Encouragement</a></li>
+      <li><a href="motivation.html">Daily Motivation</a></li>
+      <li><a href="help.html">Get Help</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="content">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
+</html>
+
+<!-- ============================= -->
+<!-- FILE: css/style.css -->
+body { font-family: Arial, sans-serif; margin: 0; background: #f4f6fa; }
+nav { background: #2f4f9d; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center; }
+nav ul { list-style: none; display: flex; gap: 15px; }
+nav a { color: white; text-decoration: none; }
+.hero { padding: 60px; text-align: center; background: #e0e7ff; }
+.btn { background: #2f4f9d; color: white; padding: 10px 20px; text-decoration: none; }
+.content { padding: 40px; }
+footer { text-align: center; padding: 20px; background: #ddd; }
+input, textarea, button { width: 100%; margin: 10px 0; padding: 10px; }
+button { background: #2f4f9d; color: white; border: none; }
